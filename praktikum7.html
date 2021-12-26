@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="praktikum7.css">
+    <title>Praktikum 7</title>
+</head>
+<body>
+    <div class="container">
+        <center>
+        <select class="boxprovinsi" id="provinsi" onchange="isiProvinsi()">
+            <option disabled="disabled" selected="selected">Provinsi</option>
+            <option>DKI Jakarta</option>
+            <option>Banten</option>
+            <option>Jawa Timur</option>
+            <option>Jawa Barat</option>
+        </select>
+        <select class="boxkota" id="kota" onchange="isiKota()">
+            <option disabled="disabled" selected="selected">Kota</option>
+        </select>
+        <p class="hasiltext" id="hasil"></p>
+        </center>
+    </div>
+    <script src="praktikum7.js"></script>
+</body>
+</html>
